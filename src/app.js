@@ -7,8 +7,9 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   //write your code here
-
-  document.querySelector("#escusas").innerHTML = Escusas();
+  document.querySelector("#btn").addEventListener("click", () => {
+    document.querySelector("#escusas").innerHTML = Escusas();
+  });
 
   function Escusas() {
     let pronoun = ["A", "The"];
