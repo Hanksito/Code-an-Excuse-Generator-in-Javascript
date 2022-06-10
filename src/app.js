@@ -10,7 +10,7 @@ window.onload = () => {
   document.querySelector("#btn").addEventListener("click", () => {
     document.querySelector("#escusas").innerHTML = Escusas();
   });
-
+  document.querySelector("#escusas").innerHTML = Escusas();
   function Escusas() {
     let pronoun = ["A", "The"];
     let subject = [
